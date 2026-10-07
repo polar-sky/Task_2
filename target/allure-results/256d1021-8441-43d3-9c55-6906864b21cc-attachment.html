@@ -1,0 +1,30 @@
+<div>PATCH to https://qa-stellarburgers.education-services.ru/api/auth/user</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;email&quot;: &quot;akakii-8148588500202807597@yandex.ru&quot;,
+    &quot;name&quot;: &quot;Куролесов-8148588500202807597&quot;,
+    &quot;password&quot;: &quot;P@sswor-8148588500202807597&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYzU5ZTI2M2E5MzA4MDAxYjU5NWI0NSIsImlhdCI6MTc5MTMzNTk3NCwiZXhwIjoxNzkxMzM3MTc0fQ.H-soZJ3EaVAmzxu1--OHpzq3LahHS1AIKKeEP1u0dMI</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X PATCH &#39;https://qa-stellarburgers.education-services.ru/api/auth/user&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYzU5ZTI2M2E5MzA4MDAxYjU5NWI0NSIsImlhdCI6MTc5MTMzNTk3NCwiZXhwIjoxNzkxMzM3MTc0fQ.H-soZJ3EaVAmzxu1--OHpzq3LahHS1AIKKeEP1u0dMI&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;email&quot;: &quot;akakii-8148588500202807597@yandex.ru&quot;,
+    &quot;name&quot;: &quot;Куролесов-8148588500202807597&quot;,
+    &quot;password&quot;: &quot;P@sswor-8148588500202807597&quot;
+}&#39;
+    </div>
+
